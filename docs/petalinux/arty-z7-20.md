@@ -3,6 +3,11 @@
 
 ## Prerequisites
 
+Requirements:
+* [extra2000/xilinx-toolkit v3.x image](https://github.com/extra2000/xilinx-toolkit)
+* Vitis and PetaLinux `v2022.2`
+* Arty Z7-20 board version: `digilentinc.com:arty-z7-20:part0:1.1`
+
 Allow X11 for Podman:
 ```
 xhost +local:
