@@ -16,7 +16,7 @@ A minimal ROS2 with Yocto/PetaLinux workspace for learning purpose.
 
 Clone this repository:
 ```
-git clone --recursive https://github.com/extra2000/ros2-helloworld-cpp.git
+git clone --recursive https://github.com/extra2000/yocto-ros2-minimal.git
 ```
 
 
