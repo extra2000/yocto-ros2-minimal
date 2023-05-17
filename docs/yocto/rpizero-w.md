@@ -3,6 +3,7 @@
 
 ## Prerequisites
 
+* [extra2000/xilinx-toolkit v3.x image](https://github.com/extra2000/xilinx-toolkit)
 * SDCard with at least 4GB.
 * Digilent Analog Discovery 2 for accessing serial console through UART pins.
 
