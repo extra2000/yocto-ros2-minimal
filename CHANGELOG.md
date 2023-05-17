@@ -1,5 +1,30 @@
 # Changelog
 
+## [1.1.0](https://github.com/extra2000/yocto-ros2-minimal/compare/v1.0.0...v1.1.0) (2023-05-17)
+
+
+### Features
+
+* **petalinux:** add support for KR260 ([97e7a16](https://github.com/extra2000/yocto-ros2-minimal/commit/97e7a16e325e571c4ec93719e8427824ba8f3db5))
+* **yocto:** add support for RPi 3B + ([1ac4491](https://github.com/extra2000/yocto-ros2-minimal/commit/1ac44918437d780bd62d1e21d4dc079a815be2b3))
+* **yocto:** add support for RPi 4B ([d1527c3](https://github.com/extra2000/yocto-ros2-minimal/commit/d1527c3c5ec86ebfa8739ef2edfd2e050d1e45d3))
+* **yocto:** add support for RPi Zero 2 W ([3e5df99](https://github.com/extra2000/yocto-ros2-minimal/commit/3e5df99de469a42707daa8938d2dfe0b304d435a))
+
+
+### Maintenance
+
+* **gitignore:** ignore hardware, hw-description, and BSP ([e802122](https://github.com/extra2000/yocto-ros2-minimal/commit/e80212252d326cdcc909c0f0d2e6be1feb3ed519))
+
+
+### Documentations
+
+* **arty-z7-20:** add `xilinx-tools-v2022-2` volume as required by `xilinx-toolkit` v3.x image ([962a321](https://github.com/extra2000/yocto-ros2-minimal/commit/962a3210cd55f7d3ae074dd66d3831bf6502a7d1))
+* **arty-z7-20:** add a list of requirements ([b6cc435](https://github.com/extra2000/yocto-ros2-minimal/commit/b6cc4358fd1f45320ef94bd6c3d0ef376f31ef70))
+* **README:** fix git clone URL ([8dbd2b7](https://github.com/extra2000/yocto-ros2-minimal/commit/8dbd2b707bac2c12d8808b45d95b25f9f75d6475))
+* **README:** remove Prerequisites ([79b7728](https://github.com/extra2000/yocto-ros2-minimal/commit/79b7728c68b0f9bc8f6731cd2c70e9b838418ada))
+* **README:** update Table of Contents ([5e8497a](https://github.com/extra2000/yocto-ros2-minimal/commit/5e8497a0afbfa6a43cad1faaa430dbe71b18fe4b))
+* **rpizero-w:** add `xilinx-toolkit` v3.x as requirement ([5387326](https://github.com/extra2000/yocto-ros2-minimal/commit/5387326e1c8e4a04bfcc740941f53041eadc5274))
+
 ## 1.0.0 (2023-05-14)
 
 
