@@ -34,6 +34,7 @@ podman run -it --rm \
     --network=host \
     --userns="keep-id:uid=1000,gid=1000" \
     -v ${PWD}/project:${PWD}/project:rw \
+    -v xilinx-tools-v2022-2:/tools/Xilinx:ro \
     --workdir ${PWD}/project/vivado/run/arty-z7-20 \
     --security-opt label=type:xilinx_toolkit_podman.process \
     localhost/extra2000/xilinx-toolkit:latest \
@@ -71,6 +72,7 @@ podman run -it --rm \
     --network=host \
     --userns="keep-id:uid=1000,gid=1000" \
     -v ${PWD}/project:${PWD}/project:rw \
+    -v xilinx-tools-v2022-2:/tools/Xilinx:ro \
     --workdir ${PWD}/project/petalinux/arty-z7-20 \
     --security-opt label=type:xilinx_toolkit_podman.process \
     localhost/extra2000/xilinx-toolkit:latest \
