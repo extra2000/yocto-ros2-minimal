@@ -5,6 +5,8 @@
 /project/vivado/run/*
 !/project/vivado/run/.gitkeep
 
+/project/petalinux/*/hardware
+/project/petalinux/*/project-spec/hw-description
 /project/petalinux/*/.petalinux
 /project/petalinux/*/project-spec/hw-description/*
 !/project/petalinux/*/project-spec/hw-description/metadata
@@ -16,3 +18,5 @@
 /project/yocto/*/build/*.log
 /project/yocto/*/build/*.lock
 # !/project/yocto/*/build/conf/bblayers.conf
+
+/project/third-party/*.bsp
