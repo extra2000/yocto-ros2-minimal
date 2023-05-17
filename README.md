@@ -7,11 +7,6 @@
 A minimal ROS2 with Yocto/PetaLinux workspace for learning purpose.
 
 
-## Prerequisites
-
-* xilinx-toolkit-podman
-
-
 ## Getting Started
 
 Clone this repository:
