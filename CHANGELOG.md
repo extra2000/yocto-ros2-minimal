@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/extra2000/yocto-ros2-minimal/compare/v1.1.0...v1.1.1) (2023-05-18)
+
+
+### Fixes
+
+* **gitmodules:** fix missing path ([c7b4364](https://github.com/extra2000/yocto-ros2-minimal/commit/c7b4364de3cc0f1a1d3786585e0eadd43bae62b1))
+
 ## [1.1.0](https://github.com/extra2000/yocto-ros2-minimal/compare/v1.0.0...v1.1.0) (2023-05-17)
 
 
