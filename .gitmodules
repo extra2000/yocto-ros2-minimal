@@ -7,78 +7,24 @@
 [submodule "project/third-party/digilent-vivado-library"]
 	path = project/third-party/digilent-vivado-library
 	url = https://github.com/extra2000/digilent-vivado-library.git
-[submodule "project/yocto/rpizero-w/poky"]
-	path = project/yocto/rpizero-w/layers/poky
+[submodule "project/yocto/layers/poky"]
+	path = project/yocto/layers/poky
 	url = https://github.com/yoctoproject/poky.git
-[submodule "project/yocto/rpizero-w/meta-openembedded"]
-	path = project/yocto/rpizero-w/layers/meta-openembedded
+[submodule "project/yocto/layers/meta-openembedded"]
+	path = project/yocto/layers/meta-openembedded
 	url = https://github.com/openembedded/meta-openembedded.git
-[submodule "project/yocto/rpizero-w/meta-raspberrypi"]
-	path = project/yocto/rpizero-w/layers/meta-raspberrypi
+[submodule "project/yocto/layers/meta-raspberrypi"]
+	path = project/yocto/layers/meta-raspberrypi
 	url = https://git.yoctoproject.org/meta-raspberrypi
-[submodule "project/yocto/rpizero-w/layers/meta-ros"]
-	path = project/yocto/rpizero-w/layers/meta-ros
+[submodule "project/yocto/layers/meta-ros"]
+	path = project/yocto/layers/meta-ros
 	url = https://github.com/ros/meta-ros.git
-[submodule "project/yocto/rpizero-w/layers/meta-user/recipes-apps/ros2-helloworld-cpp/files/ros2-helloworld-cpp"]
-	path = project/yocto/rpizero-w/layers/meta-user/recipes-apps/ros2-helloworld-cpp/files/ros2-helloworld-cpp
+[submodule "project/yocto/layers/meta-user/recipes-apps/ros2-helloworld-cpp/files/ros2-helloworld-cpp"]
+	path = project/yocto/layers/meta-user/recipes-apps/ros2-helloworld-cpp/files/ros2-helloworld-cpp
 	url = https://github.com/extra2000/ros2-helloworld-cpp.git
-[submodule "project/yocto/rpizero-w/layers/meta-user/recipes-apps/ros2-helloworld-python/files/ros2_helloworld_python"]
-	path = project/yocto/rpizero-w/layers/meta-user/recipes-apps/ros2-helloworld-python/files/ros2_helloworld_python
+[submodule "project/yocto/layers/meta-user/recipes-apps/ros2-helloworld-python/files/ros2_helloworld_python"]
+	path = project/yocto/layers/meta-user/recipes-apps/ros2-helloworld-python/files/ros2_helloworld_python
 	url = https://github.com/extra2000/ros2-helloworld-python.git
-[submodule "project/yocto/rpi3bp/meta-openembedded"]
-	path = project/yocto/rpi3bp/meta-openembedded
-	url = https://github.com/openembedded/meta-openembedded.git
-[submodule "project/yocto/rpi3bp/poky"]
-	path = project/yocto/rpi3bp/poky
-	url = https://github.com/yoctoproject/poky.git
-[submodule "project/yocto/rpi3bp/layers/meta-raspberrypi"]
-	path = project/yocto/rpi3bp/layers/meta-raspberrypi
-	url = https://git.yoctoproject.org/meta-raspberrypi
-[submodule "project/yocto/rpi3bp/layers/meta-ros"]
-	path = project/yocto/rpi3bp/layers/meta-ros
-	url = https://github.com/ros/meta-ros.git
-[submodule "project/yocto/rpi4b/layers/poky"]
-	path = project/yocto/rpi4b/layers/poky
-	url = https://github.com/yoctoproject/poky.git
-[submodule "project/yocto/rpi4b/layers/meta-openembedded"]
-	path = project/yocto/rpi4b/layers/meta-openembedded
-	url = https://github.com/openembedded/meta-openembedded.git
-[submodule "project/yocto/rpi4b/layers/meta-raspberrypi"]
-	path = project/yocto/rpi4b/layers/meta-raspberrypi
-	url = https://git.yoctoproject.org/meta-raspberrypi
-[submodule "project/yocto/rpi4b/layers/meta-ros"]
-	path = project/yocto/rpi4b/layers/meta-ros
-	url = https://github.com/ros/meta-ros.git
-[submodule "project/yocto/rpi3bp/layers/meta-user/recipes-apps/ros2-helloworld-cpp/files/ros2-helloworld-cpp"]
-	path = project/yocto/rpi3bp/layers/meta-user/recipes-apps/ros2-helloworld-cpp/files/ros2-helloworld-cpp
-	url = https://github.com/extra2000/ros2-helloworld-cpp.git
-[submodule "project/yocto/rpi3bp/layers/meta-user/recipes-apps/ros2-helloworld-python/files/ros2_helloworld_python"]
-	path = project/yocto/rpi3bp/layers/meta-user/recipes-apps/ros2-helloworld-python/files/ros2_helloworld_python
-	url = https://github.com/extra2000/ros2_helloworld_python.git
-[submodule "project/yocto/rpi4b/layers/meta-user/recipes-apps/ros2-helloworld-cpp/files/ros2-helloworld-cpp"]
-	path = project/yocto/rpi4b/layers/meta-user/recipes-apps/ros2-helloworld-cpp/files/ros2-helloworld-cpp
-	url = https://github.com/extra2000/ros2-helloworld-cpp.git
-[submodule "project/yocto/rpi4b/layers/meta-user/recipes-apps/ros2-helloworld-python/files/ros2_helloworld_python"]
-	path = project/yocto/rpi4b/layers/meta-user/recipes-apps/ros2-helloworld-python/files/ros2_helloworld_python
-	url = https://github.com/extra2000/ros2_helloworld_python.git
-[submodule "project/yocto/rpizero2-w/layers/poky"]
-	path = project/yocto/rpizero2-w/layers/poky
-	url = https://github.com/yoctoproject/poky.git
-[submodule "project/yocto/rpizero2-w/layers/meta-openembedded"]
-	path = project/yocto/rpizero2-w/layers/meta-openembedded
-	url = https://github.com/openembedded/meta-openembedded.git
-[submodule "project/yocto/rpizero2-w/layers/meta-raspberrypi"]
-	path = project/yocto/rpizero2-w/layers/meta-raspberrypi
-	url = https://git.yoctoproject.org/meta-raspberrypi
-[submodule "project/yocto/rpizero2-w/layers/meta-ros"]
-	path = project/yocto/rpizero2-w/layers/meta-ros
-	url = https://github.com/ros/meta-ros.git
-[submodule "project/yocto/rpizero2-w/layers/meta-user/recipes-apps/ros2-helloworld-cpp/files/ros2-helloworld-cpp"]
-	path = project/yocto/rpizero2-w/layers/meta-user/recipes-apps/ros2-helloworld-cpp/files/ros2-helloworld-cpp
-	url = https://github.com/extra2000/ros2-helloworld-cpp.git
-[submodule "project/yocto/rpizero2-w/layers/meta-user/recipes-apps/ros2-helloworld-python/files/ros2_helloworld_python"]
-	path = project/yocto/rpizero2-w/layers/meta-user/recipes-apps/ros2-helloworld-python/files/ros2_helloworld_python
-	url = https://github.com/extra2000/ros2_helloworld_python.git
 [submodule "project/petalinux/kr260/project-spec/meta-user/recipes-apps/ros2-helloworld-cpp/files/ros2-helloworld-cpp"]
 	path = project/petalinux/kr260/project-spec/meta-user/recipes-apps/ros2-helloworld-cpp/files/ros2-helloworld-cpp
 	url = https://github.com/extra2000/ros2-helloworld-cpp.git
