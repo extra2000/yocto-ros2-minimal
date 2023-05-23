@@ -13,11 +13,6 @@ Allow X11 for Podman:
 xhost +local:
 ```
 
-Allow source files to be mounted into container:
-```
-chcon -R -v -t container_file_t project
-```
-
 
 ## Creating Hardware
 
@@ -36,7 +31,7 @@ podman run -it --rm \
     -v ${PWD}/project:${PWD}/project:rw \
     -v xilinx-tools-v2022-2:/tools/Xilinx:ro \
     --workdir ${PWD}/project/vivado/run/arty-z7-20 \
-    --security-opt label=type:xilinx_toolkit_podman.process \
+    --security-opt label=disable \
     localhost/extra2000/xilinx-toolkit:latest \
     bash
 source /tools/Xilinx/Vitis/2022.2/settings64.sh
@@ -74,7 +69,7 @@ podman run -it --rm \
     -v ${PWD}/project:${PWD}/project:rw \
     -v xilinx-tools-v2022-2:/tools/Xilinx:ro \
     --workdir ${PWD}/project/petalinux/arty-z7-20 \
-    --security-opt label=type:xilinx_toolkit_podman.process \
+    --security-opt label=disable \
     localhost/extra2000/xilinx-toolkit:latest \
     bash
 source /tools/Xilinx/PetaLinux/2022.2/tool/settings.sh

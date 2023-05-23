@@ -10,11 +10,6 @@
 
 ## Building
 
-Allow source files to be mounted into container:
-```
-chcon -R -t container_file_t project
-```
-
 Create container:
 ```
 podman run -it --rm \
@@ -22,7 +17,7 @@ podman run -it --rm \
     --userns="keep-id:uid=1000,gid=1000" \
     -v ${PWD}/project:${PWD}/project:rw \
     --workdir ${PWD}/project/yocto/rpizero-w \
-    --security-opt label=type:xilinx_toolkit_podman.process \
+    --security-opt label=disable \
     localhost/extra2000/xilinx-toolkit:latest \
     bash
 source layers/poky/oe-init-build-env build
