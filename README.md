@@ -21,7 +21,8 @@ git clone --recursive https://github.com/extra2000/yocto-ros2-minimal.git
     * [Arty Z7-20](docs/petalinux/arty-z7-20.md)
     * [KR260](docs/petalinux/kr260.md)
 * Raspberry Pi:
-    * [Raspberry Pi Zero W](docs/yocto/rpizero-w.md)
-    * [Raspberry Pi Zero 2 W](docs/yocto/rpizero2-w.md)
-    * [Raspberry Pi 3 B+](docs/yocto/rpi3bp.md)
-    * [Raspberry Pi 4 B](docs/yocto/rpi4b.md)
+    * [Raspberry Pi Zero W](docs/yocto/specifics/rpizero-w.md)
+    * [Raspberry Pi Zero 2 W](docs/yocto/specifics/rpizero2-w.md)
+    * [Raspberry Pi 3 B+](docs/yocto/specifics/rpi3bp.md)
+    * [Raspberry Pi 4 B](docs/yocto/specifics/rpi4b.md)
+* All Yocto targets: [Yocto Building for All Targets](docs/yocto/all-targets.md)
