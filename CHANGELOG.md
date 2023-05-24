@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/extra2000/yocto-ros2-minimal/compare/v1.1.1...v1.1.2) (2023-05-24)
+
+
+### Documentations
+
+* **petalinux,yocto:** remove SELinux labeling when creating containers ([c4a8e9f](https://github.com/extra2000/yocto-ros2-minimal/commit/c4a8e9ffbeb73d00d6fc9fcc9aea153b72869bb2))
+
 ## [1.1.1](https://github.com/extra2000/yocto-ros2-minimal/compare/v1.1.0...v1.1.1) (2023-05-18)
 
 
