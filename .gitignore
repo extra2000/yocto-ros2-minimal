@@ -11,12 +11,11 @@
 /project/petalinux/*/project-spec/hw-description/*
 !/project/petalinux/*/project-spec/hw-description/metadata
 
-/project/yocto/*/build/cache
-/project/yocto/*/build/downloads
-/project/yocto/*/build/sstate-cache
-/project/yocto/*/build/tmp
-/project/yocto/*/build/*.log
-/project/yocto/*/build/*.lock
-# !/project/yocto/*/build/conf/bblayers.conf
+/project/yocto/build/cache
+/project/yocto/build/downloads
+/project/yocto/build/sstate-cache
+/project/yocto/build/tmp
+/project/yocto/build/*.log
+/project/yocto/build/*.lock
 
 /project/third-party/*.bsp
