@@ -31,3 +31,9 @@
 [submodule "project/petalinux/kr260/project-spec/meta-user/recipes-apps/ros2-helloworld-python/files/ros2_helloworld_python"]
 	path = project/petalinux/kr260/project-spec/meta-user/recipes-apps/ros2-helloworld-python/files/ros2_helloworld_python
 	url = https://github.com/extra2000/ros2_helloworld_python.git
+[submodule "project/yocto/layers/meta-rockchip"]
+	path = project/yocto/layers/meta-rockchip
+	url = https://git.yoctoproject.org/meta-rockchip
+[submodule "project/yocto/layers/meta-arm"]
+	path = project/yocto/layers/meta-arm
+	url = https://git.yoctoproject.org/meta-arm

@@ -25,4 +25,6 @@ git clone --recursive https://github.com/extra2000/yocto-ros2-minimal.git
     * [Raspberry Pi Zero 2 W](docs/yocto/specifics/rpizero2-w.md)
     * [Raspberry Pi 3 B+](docs/yocto/specifics/rpi3bp.md)
     * [Raspberry Pi 4 B](docs/yocto/specifics/rpi4b.md)
+* Pine64:
+    * [Rock64](docs/yocto/specifics/rock64.md)
 * All Yocto targets: [Yocto Building for All Targets](docs/yocto/all-targets.md)
