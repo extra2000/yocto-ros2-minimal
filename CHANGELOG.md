@@ -1,5 +1,29 @@
 # Changelog
 
+## [2.0.0](https://github.com/extra2000/yocto-ros2-minimal/compare/v1.1.2...v2.0.0) (2023-05-25)
+
+
+### ⚠ BREAKING CHANGES
+
+* **yocto:** project files have been restructured for multiconfig build
+* **yocto/submodules:** submodules for Yocto have been restructured
+
+### Features
+
+* **yocto:** add multiconfig build ([7c4d33a](https://github.com/extra2000/yocto-ros2-minimal/commit/7c4d33aa819571579964f92335a554869f428d33))
+* **yocto:** add Rock64 machine ([6a57e69](https://github.com/extra2000/yocto-ros2-minimal/commit/6a57e69eaccd78f3e79c927203c230740dd3c542))
+
+
+### Code Refactoring
+
+* **yocto/submodules:** move all submodules in `project/yocto/*/layers/*` to `project/yocto/layers/*` ([5e8c36f](https://github.com/extra2000/yocto-ros2-minimal/commit/5e8c36febd5aedfe6e8282cd1e15420ced1ce246))
+* **yocto:** remove unused bitbake and conf files ([55a46e8](https://github.com/extra2000/yocto-ros2-minimal/commit/55a46e89cfde6178825198f1d5fd483135aa32b9))
+
+
+### Documentations
+
+* **yocto:** update instructions for multiconfig build ([dc6731f](https://github.com/extra2000/yocto-ros2-minimal/commit/dc6731f3ac09752eb177d04ba2030a486fd7b2b1))
+
 ## [1.1.2](https://github.com/extra2000/yocto-ros2-minimal/compare/v1.1.1...v1.1.2) (2023-05-24)
 
 
