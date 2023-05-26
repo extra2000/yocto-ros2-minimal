@@ -37,4 +37,4 @@ sudo dd bs=4M iflag=fullblock oflag=direct status=progress if=project/yocto/buil
 
 ## Testing
 
-Insert SD card and power on Raspberry Pi Zero W. Access serial console and login with `root` user. Then, follow [Testing](../common/testing.md) instructions.
+Insert SD card and power on Rock64. Access serial console and login with `root` user. Then, follow [Testing](../common/testing.md) instructions.
