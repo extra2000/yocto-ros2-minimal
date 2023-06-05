@@ -79,8 +79,14 @@ USER_APPS = " \
     ros2-helloworld-python \
 "
 
+NETWORKING = " \
+    netplan \
+    wpa-supplicant \
+"
+
 IMAGE_INSTALL:append = " \
     ${ROS_SYSROOT_BUILD_DEPENDENCIES} \
+    ${NETWORKING} \
     python3-argcomplete \
     glibc-utils \
     localedef \
