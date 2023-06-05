@@ -16,9 +16,6 @@
 [submodule "project/yocto/layers/meta-raspberrypi"]
 	path = project/yocto/layers/meta-raspberrypi
 	url = https://git.yoctoproject.org/meta-raspberrypi
-[submodule "project/yocto/layers/meta-ros"]
-	path = project/yocto/layers/meta-ros
-	url = https://github.com/ros/meta-ros.git
 [submodule "project/yocto/layers/meta-user/recipes-apps/ros2-helloworld-cpp/files/ros2-helloworld-cpp"]
 	path = project/yocto/layers/meta-user/recipes-apps/ros2-helloworld-cpp/files/ros2-helloworld-cpp
 	url = https://github.com/extra2000/ros2-helloworld-cpp.git
@@ -37,3 +34,6 @@
 [submodule "project/yocto/layers/meta-arm"]
 	path = project/yocto/layers/meta-arm
 	url = https://git.yoctoproject.org/meta-arm
+[submodule "project/yocto/layers/meta-ros"]
+	path = project/yocto/layers/meta-ros
+	url = https://github.com/Xilinx/meta-ros.git
