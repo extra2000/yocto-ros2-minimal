@@ -51,7 +51,6 @@ ROS_SYSROOT_BUILD_DEPENDENCIES = " \
     python3-catkin-pkg \
     python3-empy \
     python3 \
-    python3-nose \
     python3-pytest \
     rcutils \
     rmw-implementation-cmake \
@@ -84,9 +83,21 @@ NETWORKING = " \
     wpa-supplicant \
 "
 
+CAMERA = " \
+    libcamera \
+    boost \
+    libexif \
+    jpeg \
+    tiff \
+    libpng \
+    libdrm \
+    libcamera-apps \
+"
+
 IMAGE_INSTALL:append = " \
     ${ROS_SYSROOT_BUILD_DEPENDENCIES} \
     ${NETWORKING} \
+    ${CAMERA} \
     python3-argcomplete \
     glibc-utils \
     localedef \
