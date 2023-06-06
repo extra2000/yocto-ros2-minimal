@@ -1,5 +1,18 @@
 # Changelog
 
+## [2.1.0](https://github.com/extra2000/yocto-ros2-minimal/compare/v2.0.0...v2.1.0) (2023-06-06)
+
+
+### Features
+
+* **yocto:** add netplan networking ([063f212](https://github.com/extra2000/yocto-ros2-minimal/commit/063f2122aa29b758693f9e295f58a76d64d643d6))
+* **yocto:** add qemuarm and qemuarm64 machines ([9749a8f](https://github.com/extra2000/yocto-ros2-minimal/commit/9749a8f78725245fb0d9dd800f58efcb87094718))
+
+
+### Documentations
+
+* **rock64:** fix typo ([c1efbcf](https://github.com/extra2000/yocto-ros2-minimal/commit/c1efbcf1c4606bdf8d15c843408555937c1d39ca))
+
 ## [2.0.0](https://github.com/extra2000/yocto-ros2-minimal/compare/v1.1.2...v2.0.0) (2023-05-25)
 
 
