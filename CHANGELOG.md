@@ -1,5 +1,34 @@
 # Changelog
 
+## [3.0.0](https://github.com/extra2000/yocto-ros2-minimal/compare/v2.1.0...v3.0.0) (2023-06-14)
+
+
+### ⚠ BREAKING CHANGES
+
+* **yocto:** meta-ros repository from https://github.com/ros/meta-ros have been replaced with meta-ros from https://github.com/Xilinx/meta-ros/ for Langdale
+
+### Features
+
+* **meta-arm:** upgrade from Honister to Langdale ([928a20d](https://github.com/extra2000/yocto-ros2-minimal/commit/928a20d1d1890975a83fcc292dd7ec53c87b931b))
+* **meta-openembedded:** upgrade from Honister to Langdale ([3c74d49](https://github.com/extra2000/yocto-ros2-minimal/commit/3c74d49b71778a68ada88b8da4708ed88b1f02ab))
+* **meta-raspberrypi:** upgrade from Honister to Langdale ([9e8045a](https://github.com/extra2000/yocto-ros2-minimal/commit/9e8045a423b01c38c223752a26e6d3cffed09a53))
+* **meta-rockchip:** upgrade from Honister to Langdale ([bff3915](https://github.com/extra2000/yocto-ros2-minimal/commit/bff3915b61872a62966358706679b169ed8ed20d))
+* **meta-user:** add support for Langdale ([c30ac49](https://github.com/extra2000/yocto-ros2-minimal/commit/c30ac494d9837178e501d54d87850142d52e0cae))
+* **poky:** upgrade from Honister to Langdale ([319ccdb](https://github.com/extra2000/yocto-ros2-minimal/commit/319ccdb504e6fe7da2163c23fab2f96f8ca0a72c))
+* **yocto:** add libcamera and libcamera-apps ([48520ff](https://github.com/extra2000/yocto-ros2-minimal/commit/48520ff8275daea8589a5c40ca5b761343df6c76))
+
+
+### Code Refactoring
+
+* **yocto:** replace ros/meta-ros with Xilinx/meta-ros for Langdale ([18694b9](https://github.com/extra2000/yocto-ros2-minimal/commit/18694b949374303801dc8e3adfe32ee9647d5bb0))
+
+
+### Fixes
+
+* **ros2:** fix `uncrustify` compile issue ([5ef367b](https://github.com/extra2000/yocto-ros2-minimal/commit/5ef367b99db502d01f2bfda1504881a541c645f9))
+* **rpizero-2w:** allow synaptics-killswitch license for Langdale ([84f3042](https://github.com/extra2000/yocto-ros2-minimal/commit/84f3042df817bcc398b410f024756dcf475f423b))
+* **yocto/local.conf:** fix systemd not included for Langdale ([3458767](https://github.com/extra2000/yocto-ros2-minimal/commit/34587677b75c2f3b3e41374a7a770f20862269f8))
+
 ## [2.1.0](https://github.com/extra2000/yocto-ros2-minimal/compare/v2.0.0...v2.1.0) (2023-06-06)
 
 
