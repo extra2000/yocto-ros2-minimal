@@ -1,0 +1,12 @@
+[Unit]
+Description=SELinux custom policy
+DefaultDependencies=no
+Before=sysinit.target
+After=selinux-autorelabel.service
+
+[Service]
+Type=oneshot
+ExecStart=/sbin/semodule -i /etc/selinux-custom-policy/mypolicy.pp
+
+[Install]
+WantedBy=sysinit.target

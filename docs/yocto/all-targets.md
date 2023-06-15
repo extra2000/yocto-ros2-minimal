@@ -40,12 +40,15 @@ bitbake mc:*:ros2-image
 
 ## Testing with QEMU
 
-To start QEMU, use the following `runqemu` command:
+To start QEMU with SELinux enforcing, use the following `runqemu` command:
 ```
 runqemu qemuarm slirp nographic qemuparams="-m 512"
 ```
 
-
+To start QEMU with SELinux permissive, use the following `runqemu` command:
+```
+runqemu qemuarm slirp nographic qemuparams="-m 512" bootparams="selinux=1 enforcing=0"
+```
 
 Login as `yocto` user with password `yocto`. Then follow testing instructions in [Testing](common/testing.md).
 

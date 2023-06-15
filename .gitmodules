@@ -40,3 +40,9 @@
 [submodule "project/yocto/layers/meta-security"]
 	path = project/yocto/layers/meta-security
 	url = https://git.yoctoproject.org/meta-security
+[submodule "project/yocto/layers/meta-selinux"]
+	path = project/yocto/layers/meta-selinux
+	url = https://git.yoctoproject.org/meta-selinux
+[submodule "project/yocto/layers/meta-clang"]
+	path = project/yocto/layers/meta-clang
+	url = https://github.com/kraj/meta-clang.git

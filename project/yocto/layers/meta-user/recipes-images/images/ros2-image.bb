@@ -114,11 +114,17 @@ HARDENING = " \
     packagegroup-hardening \
 "
 
+SELINUX = " \
+    packagegroup-core-selinux \
+    selinux-custom-policy \
+"
+
 IMAGE_INSTALL:append = " \
     ${ROS_SYSROOT_BUILD_DEPENDENCIES} \
     ${NETWORKING} \
     ${CAMERA} \
     ${HARDENING} \
+    ${SELINUX} \
     ros-core \
     python3-pip \
     python3-argcomplete \
