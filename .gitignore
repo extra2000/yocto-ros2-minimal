@@ -15,6 +15,7 @@
 /project/yocto/build/downloads
 /project/yocto/build/sstate-cache
 /project/yocto/build/tmp
+/project/yocto/build/tmp*
 /project/yocto/build/*.log
 /project/yocto/build/*.lock
 
