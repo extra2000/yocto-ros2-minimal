@@ -36,4 +36,4 @@ bzcat project/yocto/build/tmp/deploy/images/raspberrypi3-64/ros-image-core-humbl
 
 ## Testing
 
-Insert SD card and power on Raspberry Pi 3B+. Access serial console and login with `root` user. Then, follow [Testing](../common/testing.md) instructions.
+Insert SD card and power on Raspberry Pi 3B+. Access serial console and login as `yocto` user with password `yocto`. Then, follow [Testing](../common/testing.md) instructions.

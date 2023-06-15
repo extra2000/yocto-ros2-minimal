@@ -110,10 +110,15 @@ CAMERA = " \
     libcamera-apps \
 "
 
+HARDENING = " \
+    packagegroup-hardening \
+"
+
 IMAGE_INSTALL:append = " \
     ${ROS_SYSROOT_BUILD_DEPENDENCIES} \
     ${NETWORKING} \
     ${CAMERA} \
+    ${HARDENING} \
     ros-core \
     python3-pip \
     python3-argcomplete \
@@ -128,3 +133,19 @@ IMAGE_INSTALL:append = " \
 
 IMAGE_LINGUAS = "en-us"
 GLIBC_GENERATE_LOCALES = "en_US.UTF-8"
+
+inherit extrausers
+
+# Use `mkpasswd -m sha-512 yocto -s "11223344"` to encrypt
+# "yocto" password into an encrypted string for usermod -p argument.
+# Make sure to escape the '$' sign.
+ROOT_DEFAULT_PASSWORD ?= "\$6\$11223344\$10y07XMjdVLi.mnmG6SKHGpWvywjYLMeJGpywG4MXAgY6Zux1hN05RCJl9tg5n0xIcO5nomiv5XULCjZuLhgy1"
+DEFAULT_ADMIN_ACCOUNT ?= "yocto"
+DEFAULT_ADMIN_GROUP ?= "wheel"
+DEFAULT_ADMIN_ACCOUNT_PASSWORD ?= "\$6\$11223344\$10y07XMjdVLi.mnmG6SKHGpWvywjYLMeJGpywG4MXAgY6Zux1hN05RCJl9tg5n0xIcO5nomiv5XULCjZuLhgy1"
+
+EXTRA_USERS_PARAMS = "${@bb.utils.contains('DISABLE_ROOT', 'True', "usermod -L root;", "usermod -p '${ROOT_DEFAULT_PASSWORD}' root;", d)}"
+EXTRA_USERS_PARAMS:append = " useradd  ${DEFAULT_ADMIN_ACCOUNT};"
+EXTRA_USERS_PARAMS:append = " groupadd  ${DEFAULT_ADMIN_GROUP};"
+EXTRA_USERS_PARAMS:append = " usermod -p '${DEFAULT_ADMIN_ACCOUNT_PASSWORD}' ${DEFAULT_ADMIN_ACCOUNT};"
+EXTRA_USERS_PARAMS:append = " usermod -aG ${DEFAULT_ADMIN_GROUP}  ${DEFAULT_ADMIN_ACCOUNT};"

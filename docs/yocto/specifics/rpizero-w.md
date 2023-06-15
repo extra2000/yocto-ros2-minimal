@@ -37,4 +37,4 @@ bzcat project/yocto/build/tmp/deploy/images/raspberrypi0-wifi/ros-image-core-hum
 
 ## Testing
 
-Insert SD card and power on Raspberry Pi Zero W. Access serial console and login with `root` user. Then, follow [Testing](../common/testing.md) instructions.
+Insert SD card and power on Raspberry Pi Zero W. Access serial console and login as `yocto` user with password `yocto`. Then, follow [Testing](../common/testing.md) instructions.

@@ -37,3 +37,6 @@
 [submodule "project/yocto/layers/meta-ros"]
 	path = project/yocto/layers/meta-ros
 	url = https://github.com/Xilinx/meta-ros.git
+[submodule "project/yocto/layers/meta-security"]
+	path = project/yocto/layers/meta-security
+	url = https://git.yoctoproject.org/meta-security
