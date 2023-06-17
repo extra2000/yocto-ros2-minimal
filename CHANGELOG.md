@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.1](https://github.com/extra2000/yocto-ros2-minimal/compare/v3.0.0...v3.0.1) (2023-06-17)
+
+
+### Fixes
+
+* **yocto/local.conf:** rename deprecated `ABORT` to `HALT` as required by Langdale ([22112a5](https://github.com/extra2000/yocto-ros2-minimal/commit/22112a5a8d48d522034e72a38403212bfff0843c))
+
 ## [3.0.0](https://github.com/extra2000/yocto-ros2-minimal/compare/v2.1.0...v3.0.0) (2023-06-14)
 
 
