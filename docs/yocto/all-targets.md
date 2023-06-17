@@ -74,17 +74,3 @@ To clean build:
 ```
 rm -rf project/yocto/build/{sstate-cache,tmp}
 ```
-
-
-## Known Issues
-
-When entering ROS2 environment using command:
-```
-source /etc/profile.d/ros/setup.bash
-```
-
-there will be errors such that:
-```
-Usage: head [OPTIONS] [FILE]...
-head: invalid option -- 'c'
-```
