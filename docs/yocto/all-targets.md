@@ -29,12 +29,12 @@ source layers/poky/oe-init-build-env build
 
 Check dependencies:
 ```
-bitbake -p mc:*:ros-core
+bitbake -p mc:*:ros2-image
 ```
 
 Build:
 ```
-bitbake mc:*:ros-image-core
+bitbake mc:*:ros2-image
 ```
 
 

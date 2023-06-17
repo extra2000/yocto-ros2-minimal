@@ -18,12 +18,12 @@ source layers/poky/oe-init-build-env build
 
 Check dependencies:
 ```
-bitbake -p mc:raspberrypi4-64:ros-core
+bitbake -p mc:raspberrypi4-64:ros2-image
 ```
 
 Build:
 ```
-bitbake mc:raspberrypi4-64:ros-image-core
+bitbake mc:raspberrypi4-64:ros2-image
 ```
 
 ## Flashing to SD Card

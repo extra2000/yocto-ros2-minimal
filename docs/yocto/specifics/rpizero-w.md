@@ -18,12 +18,12 @@ source layers/poky/oe-init-build-env build
 
 To check dependencies:
 ```
-bitbake -p mc:raspberrypi0-wifi:ros-core
+bitbake -p mc:raspberrypi0-wifi:ros2-image
 ```
 
 To build:
 ```
-bitbake mc:raspberrypi0-wifi:ros-image-core
+bitbake mc:raspberrypi0-wifi:ros2-image
 ```
 
 

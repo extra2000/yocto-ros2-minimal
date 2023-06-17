@@ -18,12 +18,12 @@ source layers/poky/oe-init-build-env build
 
 Check dependencies:
 ```
-bitbake -p mc:raspberrypi0-2w-64:ros-core
+bitbake -p mc:raspberrypi0-2w-64:ros2-image
 ```
 
 Build:
 ```
-bitbake mc:raspberrypi0-2w-64:ros-image-core
+bitbake mc:raspberrypi0-2w-64:ros2-image
 ```
 
 

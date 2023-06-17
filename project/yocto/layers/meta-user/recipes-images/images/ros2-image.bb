@@ -1,3 +1,18 @@
+require ${COREBASE}/meta/recipes-core/images/core-image-base.bb
+
+SUMMARY = "ROS2 Image"
+DESCRIPTION = "${SUMMARY}"
+AUTHOR = "Nick Aizuddin <nick@extra2000.io>"
+LICENSE = "MIT"
+LIC_FILES_CHKSUM = "file://LICENSE;md5=14549528096b9b60194cbada83109dcd"
+
+inherit ros_distro_${ROS_DISTRO}
+inherit ${ROS_DISTRO_TYPE}_image
+
+SRC_URI:append = "\
+    file://LICENSE \
+"
+
 ROS_SYSROOT_BUILD_DEPENDENCIES = " \
     ament-lint-auto \
     ament-cmake-auto \
@@ -98,6 +113,7 @@ IMAGE_INSTALL:append = " \
     ${ROS_SYSROOT_BUILD_DEPENDENCIES} \
     ${NETWORKING} \
     ${CAMERA} \
+    ros-core \
     python3-argcomplete \
     glibc-utils \
     localedef \

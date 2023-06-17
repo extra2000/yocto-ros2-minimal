@@ -18,12 +18,12 @@ source layers/poky/oe-init-build-env build
 
 To check dependencies:
 ```
-bitbake -p mc:rock64:ros-core
+bitbake -p mc:rock64:ros2-image
 ```
 
 To build:
 ```
-bitbake mc:rock64:ros-image-core
+bitbake mc:rock64:ros2-image
 ```
 
 
