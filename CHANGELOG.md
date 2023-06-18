@@ -1,5 +1,31 @@
 # Changelog
 
+## [4.0.0](https://github.com/extra2000/yocto-ros2-minimal/compare/v3.0.2...v4.0.0) (2023-06-18)
+
+
+### ⚠ BREAKING CHANGES
+
+* **yocto/image:** no longer using `ros-image-core.bbappend` with default `core-image-minimal`, now using custom `ros2-image` with `core-image-base`
+
+### Code Refactoring
+
+* **yocto/image:** remove `ros-image-core.bbappend` and use custom `ros2-image` ([b98ae2d](https://github.com/extra2000/yocto-ros2-minimal/commit/b98ae2d3260d10fdbd7fed753ed80fec79b17817))
+
+
+### Fixes
+
+* **yocto/image:** add missing `python3-rospkg` and `python3-pip` ([ace14cd](https://github.com/extra2000/yocto-ros2-minimal/commit/ace14cd66e74f35aca43f0f3060bf01aca114309))
+
+
+### Maintenance
+
+* **gitignore:** ignore `/project/yocto/build/tmp*` ([0d1f86a](https://github.com/extra2000/yocto-ros2-minimal/commit/0d1f86a3f9c806e18244e5f579f690ad8ef14b12))
+
+
+### Documentations
+
+* **yocto:** add more cleanup paths `project/yocto/build/{cache,downloads,tmp-*}` ([0a339fb](https://github.com/extra2000/yocto-ros2-minimal/commit/0a339fbe591b207c63ffadc20543919e2c3356e2))
+
 ## [3.0.2](https://github.com/extra2000/yocto-ros2-minimal/compare/v3.0.1...v3.0.2) (2023-06-18)
 
 
