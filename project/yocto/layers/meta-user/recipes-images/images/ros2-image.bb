@@ -67,6 +67,7 @@ ROS_SYSROOT_BUILD_DEPENDENCIES = " \
     python3-empy \
     python3 \
     python3-pytest \
+    python3-rospkg \
     rcutils \
     rmw-implementation-cmake \
     rosidl-cmake \
@@ -114,6 +115,7 @@ IMAGE_INSTALL:append = " \
     ${NETWORKING} \
     ${CAMERA} \
     ros-core \
+    python3-pip \
     python3-argcomplete \
     glibc-utils \
     localedef \
