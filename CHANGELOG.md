@@ -1,5 +1,19 @@
 # Changelog
 
+## [3.0.2](https://github.com/extra2000/yocto-ros2-minimal/compare/v3.0.1...v3.0.2) (2023-06-18)
+
+
+### Documentations
+
+* **yocto/qemuarm:** add example how to set custom memory size ([f4b9225](https://github.com/extra2000/yocto-ros2-minimal/commit/f4b9225587867d92f3da1b4e9b04a819f9c821e0))
+* **yocto/testing:** add Known Issues for Python examples ([eebce9f](https://github.com/extra2000/yocto-ros2-minimal/commit/eebce9ff653d2fc9c5ae300811b001ccb85bc10b))
+* **yocto:** remove ROS2 Known Issues ([ba43942](https://github.com/extra2000/yocto-ros2-minimal/commit/ba4394290d4c081564a10a4076a715f5b0718d9e))
+
+
+### Code Refactoring
+
+* **yocto/local.conf:** remove `sysvinit` ([95e8982](https://github.com/extra2000/yocto-ros2-minimal/commit/95e89828f83ad061f5996e2f162b45de865655c9))
+
 ## [3.0.1](https://github.com/extra2000/yocto-ros2-minimal/compare/v3.0.0...v3.0.1) (2023-06-17)
 
 
