@@ -30,7 +30,7 @@ bitbake mc:raspberrypi4-64:ros2-image
 
 Execute the following command:
 ```
-bzcat project/yocto/build/tmp/deploy/images/raspberrypi4-64/ros-image-core-humble-raspberrypi4-64-*.rootfs.wic.bz2 | sudo dd bs=4M iflag=fullblock oflag=direct status=progress of=/dev/sdX; sudo sync
+bzcat project/yocto/build/tmp-glibc/deploy/images/raspberrypi4-64/ros2-image-humble-raspberrypi4-64-*.rootfs.wic.bz2 | sudo dd bs=4M iflag=fullblock oflag=direct status=progress of=/dev/sdX; sudo sync
 ```
 
 

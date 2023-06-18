@@ -31,7 +31,7 @@ bitbake mc:rock64:ros2-image
 
 Execute the following command:
 ```
-sudo dd bs=4M iflag=fullblock oflag=direct status=progress if=project/yocto/build/tmp/deploy/images/rock64/ros-image-core-humble-rock64-*.rootfs.wic of=/dev/sdX; sudo sync
+sudo dd bs=4M iflag=fullblock oflag=direct status=progress if=project/yocto/build/tmp-glibc/deploy/images/rock64/ros2-image-humble-rock64-*.rootfs.wic of=/dev/sdX; sudo sync
 ```
 
 
