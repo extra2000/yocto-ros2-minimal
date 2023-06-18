@@ -1,5 +1,13 @@
 # Changelog
 
+## [4.1.0](https://github.com/extra2000/yocto-ros2-minimal/compare/v4.0.0...v4.1.0) (2023-06-18)
+
+
+### Features
+
+* **yocto/security:** add SELinux by including `meta-selinux` layer and its dependency layer `meta-clang` ([080683e](https://github.com/extra2000/yocto-ros2-minimal/commit/080683e479dde46d56c2c630f97e62f125ff0793))
+* **yocto/security:** harden image by adding `meta-security` layer to create admin user `yocto` and disable `root` login ([4acf310](https://github.com/extra2000/yocto-ros2-minimal/commit/4acf310e5e599083ceb26b8166cc74d222b2dd6b))
+
 ## [4.0.0](https://github.com/extra2000/yocto-ros2-minimal/compare/v3.0.2...v4.0.0) (2023-06-18)
 
 
