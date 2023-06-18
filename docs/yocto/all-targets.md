@@ -42,7 +42,7 @@ bitbake mc:*:ros-image-core
 
 To start QEMU, use the following `runqemu` command:
 ```
-runqemu qemuarm slirp nographic
+runqemu qemuarm slirp nographic qemuparams="-m 512"
 ```
 
 Login with `root` without password. Then follow testing instructions in [Testing](common/testing.md).
