@@ -1,5 +1,19 @@
 # Changelog
 
+## [4.1.1](https://github.com/extra2000/yocto-ros2-minimal/compare/v4.1.0...v4.1.1) (2023-06-19)
+
+
+### Documentations
+
+* **yocto/cleanup:** add `.log` to cleanup command ([742f99a](https://github.com/extra2000/yocto-ros2-minimal/commit/742f99afd9ef7be7d710f2e8187b8e3a163b600f))
+* **yocto:** fix WIC image path ([1a0ebe4](https://github.com/extra2000/yocto-ros2-minimal/commit/1a0ebe496921590a6fcc1a38c222dbb545bf313b))
+
+
+### Fixes
+
+* **yocto/raspberrypi:** fix SELinux not enabled by adding missing `CMDLINE` options ([4d38bf6](https://github.com/extra2000/yocto-ros2-minimal/commit/4d38bf6911a77abe151291927fe2578d7aa83fb1))
+* **yocto/raspberrypi:** fix SELinux not enabled in kernel build configuration ([c322c23](https://github.com/extra2000/yocto-ros2-minimal/commit/c322c23a72c66d5efa0d51890b4426956872a3c4))
+
 ## [4.1.0](https://github.com/extra2000/yocto-ros2-minimal/compare/v4.0.0...v4.1.0) (2023-06-18)
 
 
