@@ -37,17 +37,22 @@ Build:
 bitbake mc:*:ros2-image
 ```
 
+To build SDK:
+```
+bitbake mc:*:ros2-image -c populate_sdk
+```
+
 
 ## Testing with QEMU
 
 To start QEMU with SELinux enforcing, use the following `runqemu` command:
 ```
-runqemu qemuarm slirp nographic qemuparams="-m 512"
+runqemu qemuarm slirp nographic qemuparams="-m 512 -net nic,netdev=eth0 -netdev user,id=eth0,hostfwd=tcp:127.0.0.1:1534-:1534 -net nic"
 ```
 
 To start QEMU with SELinux permissive, use the following `runqemu` command:
 ```
-runqemu qemuarm slirp nographic qemuparams="-m 512" bootparams="selinux=1 enforcing=0"
+runqemu qemuarm slirp nographic qemuparams="-m 512 -net nic,netdev=eth0 -netdev user,id=eth0,hostfwd=tcp:127.0.0.1:1534-:1534 -net nic" bootparams="selinux=1 enforcing=0"
 ```
 
 Login as `yocto` user with password `yocto`. Then follow testing instructions in [Testing](common/testing.md).
