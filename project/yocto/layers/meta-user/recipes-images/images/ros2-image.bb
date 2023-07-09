@@ -119,12 +119,17 @@ SELINUX = " \
     selinux-custom-policy \
 "
 
+DATASTRUCT_APPS = " \
+    datastruct-cpp \
+"
+
 IMAGE_INSTALL:append = " \
     ${ROS_SYSROOT_BUILD_DEPENDENCIES} \
     ${NETWORKING} \
     ${CAMERA} \
     ${HARDENING} \
     ${SELINUX} \
+    ${DATASTRUCT_APPS} \
     ros-core \
     python3-pip \
     python3-argcomplete \

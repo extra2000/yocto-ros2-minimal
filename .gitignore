@@ -18,5 +18,6 @@
 /project/yocto/build/tmp*
 /project/yocto/build/*.log
 /project/yocto/build/*.lock
+/project/yocto/layers/meta-user/recipes-apps/datastruct-cpp/files/build
 
 /project/third-party/*.bsp

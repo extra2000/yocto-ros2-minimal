@@ -46,3 +46,6 @@
 [submodule "project/yocto/layers/meta-clang"]
 	path = project/yocto/layers/meta-clang
 	url = https://github.com/kraj/meta-clang.git
+[submodule "project/yocto/layers/meta-user/recipes-apps/datastruct-cpp/files/datastruct-cpp"]
+	path = project/yocto/layers/meta-user/recipes-apps/datastruct-cpp/files/datastruct-cpp
+	url = https://github.com/extra2000/datastruct-cpp.git
