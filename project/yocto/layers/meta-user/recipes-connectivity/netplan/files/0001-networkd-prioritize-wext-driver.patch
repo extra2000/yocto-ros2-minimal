@@ -1,0 +1,13 @@
+diff --git a/src/networkd.c b/src/networkd.c
+index 6d26047..796bd45 100644
+--- a/src/networkd.c
++++ b/src/networkd.c
+@@ -998,7 +998,7 @@ write_wpa_unit(const NetplanNetDefinition* def, const char* rootdir)
+     if (def->type != NETPLAN_DEF_TYPE_WIFI) {
+         g_string_append(s, " -Dwired\n");
+     } else {
+-        g_string_append(s, " -Dnl80211,wext\n");
++        g_string_append(s, " -Dwext,nl80211\n");
+     }
+     orig_umask = umask(022);
+     g_string_free_to_file(s, rootdir, path, NULL);
