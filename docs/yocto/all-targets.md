@@ -82,5 +82,5 @@ To test on specific boards, see the following list:
 
 To clean build:
 ```
-rm -rf project/yocto/build/{sstate-cache,tmp,cache,downloads,tmp-*,*.log}
+rm -rf project/yocto/build/{sstate-cache,tmp,cache,downloads,tmp-*,sdk-*,*.log}
 ```

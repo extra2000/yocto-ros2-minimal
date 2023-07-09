@@ -26,6 +26,17 @@ Build:
 bitbake mc:raspberrypi0-2w-64:ros2-image
 ```
 
+To build SDK and extract into `[PROJECT_ROOT]/project/yocto/build/sdk-rpizero2-w` directory:
+```
+bitbake mc:raspberrypi0-2w-64:ros2-image -c populate_sdk
+./tmp-glibc/deploy/sdk/oecore-x86_64-cortexa53-toolchain-nodistro.0.sh -d sdk-rpizero2-w
+```
+
+**NOTE: To use the SDK for cross-compiling, use the following command to `source` SDK environment**:
+```
+source sdk-rpizero2-w/environment-setup-cortexa53-oe-linux
+```
+
 
 ## Flashing to SD Card
 
