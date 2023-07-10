@@ -1,5 +1,24 @@
 # Changelog
 
+## [4.2.0](https://github.com/extra2000/yocto-ros2-minimal/compare/v4.1.1...v4.2.0) (2023-07-10)
+
+
+### Features
+
+* **yocto:** add `datastruct-cpp` example project ([d7d8925](https://github.com/extra2000/yocto-ros2-minimal/commit/d7d89252f7aed210f4c48834a5268a22dc59f51f))
+* **yocto:** add `ssh-server-openssh` for port forwarding ([d304d4a](https://github.com/extra2000/yocto-ros2-minimal/commit/d304d4a6f851ff89e2c6a6a641db093eb2785ea5))
+* **yocto:** add TCF Agent for remote debugging via Eclipse, and add instructions how to build SDK for Eclipse/CMake ([bd1d6ef](https://github.com/extra2000/yocto-ros2-minimal/commit/bd1d6efb3ec4118d1519ea0ca420ef98682b669a))
+
+
+### Documentations
+
+* **yocto:** add instructions how to extract SDK for RPi Zero 2W ([2ce196d](https://github.com/extra2000/yocto-ros2-minimal/commit/2ce196dd925eed9fa1f7bf0e3a2487bd6af2a17b))
+
+
+### Fixes
+
+* **yocto/netplan:** fix RPi Zero 2W WiFi driver issue with WPA2 EAP TLS access point ([b14cf39](https://github.com/extra2000/yocto-ros2-minimal/commit/b14cf39280ef98ef68ee7d529300deddd538545c))
+
 ## [4.1.1](https://github.com/extra2000/yocto-ros2-minimal/compare/v4.1.0...v4.1.1) (2023-06-19)
 
 
