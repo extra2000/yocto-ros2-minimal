@@ -152,7 +152,7 @@ inherit extrausers
 # Make sure to escape the '$' sign.
 ROOT_DEFAULT_PASSWORD ?= "\$6\$11223344\$10y07XMjdVLi.mnmG6SKHGpWvywjYLMeJGpywG4MXAgY6Zux1hN05RCJl9tg5n0xIcO5nomiv5XULCjZuLhgy1"
 DEFAULT_ADMIN_ACCOUNT ?= "yocto"
-DEFAULT_ADMIN_GROUP ?= "wheel"
+DEFAULT_ADMIN_GROUP ?= "wheel video"
 DEFAULT_ADMIN_ACCOUNT_PASSWORD ?= "\$6\$11223344\$10y07XMjdVLi.mnmG6SKHGpWvywjYLMeJGpywG4MXAgY6Zux1hN05RCJl9tg5n0xIcO5nomiv5XULCjZuLhgy1"
 
 EXTRA_USERS_PARAMS = "${@bb.utils.contains('DISABLE_ROOT', 'True', "usermod -L root;", "usermod -p '${ROOT_DEFAULT_PASSWORD}' root;", d)}"
