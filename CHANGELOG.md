@@ -1,5 +1,35 @@
 # Changelog
 
+## [5.0.0](https://github.com/extra2000/yocto-ros2-minimal/compare/v4.2.0...v5.0.0) (2023-07-18)
+
+
+### ⚠ BREAKING CHANGES
+
+* **petalinux:** All PetaLinux instructions and projects have been moved to [extra2000/petalinux-ros2-minimal](https://github.com/extra2000/petalinux-ros2-minimal) repository
+
+### Features
+
+* **yocto/libcamera:** enable camera for `raspberrypi0-wifi`, `raspberrypi3-64`, and `raspberrypi4-64` ([fe83bf0](https://github.com/extra2000/yocto-ros2-minimal/commit/fe83bf096fb334e6839b3c9339abfcba91550db8))
+* **yocto/selinux:** add SELinux for `rock64` ([0805a9e](https://github.com/extra2000/yocto-ros2-minimal/commit/0805a9e51e1ffd9b9277ae7c59e71d33fdd31a93))
+
+
+### Documentations
+
+* **yocto/local.conf:** add instructions for `bitbake` Parallelism Options ([84bda28](https://github.com/extra2000/yocto-ros2-minimal/commit/84bda2803d27340972f18f2c9fd917dd31409f34))
+
+
+### Fixes
+
+* **yocto/license:** add `synaptics-killswitch` license flag for `raspberrypi0-wifi`, `raspberrypi3-64`, and `raspberrypi4-64` ([ee28c34](https://github.com/extra2000/yocto-ros2-minimal/commit/ee28c340cd2ebec847b73dab4e91c832d3abea4a))
+* **yocto/netplan:** add driver fixes for `raspberrypi0-wifi`, `raspberrypi3-64`, and `raspberrypi4-64` ([d969a22](https://github.com/extra2000/yocto-ros2-minimal/commit/d969a225d140950148db4563307e82af10185ea0))
+* **yocto:** add group `video` to allow libcamera access without `sudo` ([0d0b538](https://github.com/extra2000/yocto-ros2-minimal/commit/0d0b538c151692821851f7552af3b25e50aeb31e))
+
+
+### Code Refactoring
+
+* **petalinux:** move all PetaLinux instructions and projects to [extra2000/petalinux-ros2-minimal](https://github.com/extra2000/petalinux-ros2-minimal) repository ([ac74617](https://github.com/extra2000/yocto-ros2-minimal/commit/ac7461732a3b3190a43d80d95df1dfca81ea9856))
+* **yocto/netplan:** using `OVERRIDES` variables instead conditional `[@bb](https://github.com/bb).utils.contains()` ([3efd4f7](https://github.com/extra2000/yocto-ros2-minimal/commit/3efd4f70ce8d59e9559107e823c6acfb813c560d))
+
 ## [4.2.0](https://github.com/extra2000/yocto-ros2-minimal/compare/v4.1.1...v4.2.0) (2023-07-10)
 
 
