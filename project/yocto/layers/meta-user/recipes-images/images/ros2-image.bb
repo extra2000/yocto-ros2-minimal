@@ -142,6 +142,28 @@ IMAGE_INSTALL:append = " \
     ${USER_APPS} \
 "
 
+TOOLCHAIN_TARGET_TASK:append = " \
+    ${ROS_SYSROOT_BUILD_DEPENDENCIES} \
+    ros-core \
+    foonathan-memory-staticdev \
+    ament-cmake-gen-version-h \
+"
+
+TOOLCHAIN_HOST_TASK:append = " \
+    nativesdk-ament-package \
+    nativesdk-ament-cmake \
+    nativesdk-python3-numpy \
+    nativesdk-python3-colcon-ros \
+    nativesdk-python3-dev \
+    nativesdk-ros-core \
+    nativesdk-rosidl-generator-py \
+    nativesdk-rosidl-default-generators \
+    nativesdk-rosidl-typesupport-c \
+    nativesdk-rosidl-typesupport-cpp \
+    nativesdk-ament-cmake-gen-version-h \
+    nativesdk-builtin-interfaces \
+"
+
 IMAGE_LINGUAS = "en-us"
 GLIBC_GENERATE_LOCALES = "en_US.UTF-8"
 
