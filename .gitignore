@@ -1,16 +1,5 @@
 /.vs
 
-.Xil
-
-/project/vivado/run/*
-!/project/vivado/run/.gitkeep
-
-/project/petalinux/*/hardware
-/project/petalinux/*/project-spec/hw-description
-/project/petalinux/*/.petalinux
-/project/petalinux/*/project-spec/hw-description/*
-!/project/petalinux/*/project-spec/hw-description/metadata
-
 /project/yocto/build/cache
 /project/yocto/build/downloads
 /project/yocto/build/sstate-cache
@@ -20,5 +9,3 @@
 /project/yocto/build/*.lock
 /project/yocto/build/sdk-*
 /project/yocto/layers/meta-user/recipes-apps/datastruct-cpp/files/build
-
-/project/third-party/*.bsp
