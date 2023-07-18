@@ -32,4 +32,7 @@ git clone --recursive https://github.com/extra2000/yocto-ros2-minimal.git
     * [Raspberry Pi 4 B](docs/yocto/specifics/rpi4b.md)
 * Pine64:
     * [Rock64](docs/yocto/specifics/rock64.md)
+* QEMU:
+    * [ARM 32-bit](docs/yocto/specifics/qemuarm.md)
+    * [ARM 64-bit](docs/yocto/specifics/qemuarm64.md)
 * All Yocto targets: [Yocto Building for All Targets](docs/yocto/all-targets.md)
