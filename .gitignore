@@ -8,4 +8,6 @@
 /project/yocto/build/*.log
 /project/yocto/build/*.lock
 /project/yocto/build/sdk-*
-/project/yocto/layers/meta-user/recipes-apps/datastruct-cpp/files/build
+/project/yocto/layers/meta-user/recipes-apps/*/files/build
+/project/yocto/layers/meta-user/recipes-apps/*/files/install
+/project/yocto/layers/meta-user/recipes-apps/*/files/log
