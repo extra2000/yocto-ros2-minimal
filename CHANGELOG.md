@@ -1,5 +1,14 @@
 # Changelog
 
+## [5.0.1](https://github.com/extra2000/yocto-ros2-minimal/compare/v5.0.0...v5.0.1) (2023-07-19)
+
+
+### Documentations
+
+* **podman:** rename from `xilinx-toolkit` to `yocto-toolkit` ([2300669](https://github.com/extra2000/yocto-ros2-minimal/commit/23006690a998e91eb52f8b68292d37ab72b44e52))
+* **README:** move prerequisites to `README.md` ([3bf3f5b](https://github.com/extra2000/yocto-ros2-minimal/commit/3bf3f5b2039b304948c4502a8eca9197c05e67c2))
+* **yocto/qemu:** add all instructions for QEMU 32-bit and QEMU 64-bit ([ba5db09](https://github.com/extra2000/yocto-ros2-minimal/commit/ba5db0906275d0e7213552339903a8c3c03d5c89))
+
 ## [5.0.0](https://github.com/extra2000/yocto-ros2-minimal/compare/v4.2.0...v5.0.0) (2023-07-18)
 
 
