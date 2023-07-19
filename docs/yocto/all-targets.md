@@ -1,14 +1,6 @@
 # Yocto Building for All Targets
 
 
-## Prerequisites
-
-* [extra2000/yocto-toolkit v4.x image](https://github.com/extra2000/yocto-toolkit)
-* Available disk space: at least 350GB
-* SDCard with at least 4GB.
-* Digilent Analog Discovery 2 for accessing serial console through UART pins.
-
-
 ## Building
 
 Create container:
