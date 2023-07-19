@@ -11,7 +11,7 @@ podman run -it --rm \
     -v ${PWD}/project:${PWD}/project:rw \
     --workdir ${PWD}/project/yocto \
     --security-opt label=disable \
-    localhost/extra2000/xilinx-toolkit:latest \
+    localhost/extra2000/yocto-toolkit:latest \
     bash
 source layers/poky/oe-init-build-env build
 ```
