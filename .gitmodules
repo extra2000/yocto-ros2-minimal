@@ -34,3 +34,6 @@
 [submodule "project/yocto/layers/meta-user/recipes-apps/datastruct-cpp/files/datastruct-cpp"]
 	path = project/yocto/layers/meta-user/recipes-apps/datastruct-cpp/files/datastruct-cpp
 	url = https://github.com/extra2000/datastruct-cpp.git
+[submodule "project/yocto/layers/meta-user/recipes-apps/kria-ros-perception/files/kria_ros_perception"]
+	path = project/yocto/layers/meta-user/recipes-apps/kria-ros-perception/files/kria_ros_perception
+	url = https://github.com/Xilinx/kria_ros_perception.git
