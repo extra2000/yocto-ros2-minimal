@@ -1,7 +1,7 @@
-inherit ros_distro_humble
+inherit ros_distro_rolling
 inherit ros_superflore_generated
 
-SUMMARY = "ROS2 Humble Python helloworld"
+SUMMARY = "ROS2 Rolling Python helloworld"
 DESCRIPTION = "${SUMMARY}"
 AUTHOR = "Nick Aizuddin <nick@extra2000.io>"
 ROS_AUTHOR = "Nick Aizuddin"
