@@ -9,7 +9,8 @@ A minimal ROS2 with Yocto workspace for learning purpose.
 
 ## Prerequisites
 
-* [extra2000/yocto-toolkit v4.x image](https://github.com/extra2000/yocto-toolkit)
+* [extra2000/yocto-toolkit v5.x image](https://github.com/extra2000/yocto-toolkit)
+* [extra2000/ros2-gazebo11-classic v1.x image](https://github.com/extra2000/ros2-gazebo11-classic)
 * Available disk space: at least 350GB
 * SDCard with at least 4GB.
 * Digilent Analog Discovery 2 for accessing serial console through UART pins.

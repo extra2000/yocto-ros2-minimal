@@ -92,6 +92,7 @@ ROS_SYSROOT_BUILD_DEPENDENCIES = " \
 USER_APPS = " \
     ros2-helloworld-cpp \
     ros2-helloworld-python \
+    perception-2nodes \
 "
 
 NETWORKING = " \
