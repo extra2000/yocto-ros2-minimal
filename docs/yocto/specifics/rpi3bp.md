@@ -111,3 +111,35 @@ To cleanup the `ros2-helloworld-cpp` project:
 ```
 rm -rf ../build/ ../install/ ../log/
 ```
+
+
+## Cross-Compiling Kria ROS Perception
+
+Open a new terminal and execute the following command (without using Podman):
+```
+source project/yocto/build/sdk-rpi3bp/environment-setup-cortexa53-oe-linux
+source project/yocto/build/sdk-rpi3bp/sysroots/x86_64-oesdk-linux/etc/profile.d/ros/setup.bash
+cd project/yocto/layers/meta-user/recipes-apps/kria-ros-perception/files/kria_ros_perception/
+rm -rf src/image_proc src/tracetools_image_pipeline src/vitis_common src/tracing src/image_pipeline_examples
+colcon \
+    --log-base ../log \
+    build \
+    --build-base ../build \
+    --install-base ../install \
+    --cmake-args \
+    -G "Eclipse CDT4 - Unix Makefiles" \
+    -DPython3_FIND_STRATEGY=LOCATION \
+    -DBUILD_TESTING=OFF
+```
+
+Execute the following command to upload to QEMU and execute the binary:
+```
+scp -P 22 ../install/ros2-helloworld-cpp/lib/ros2-helloworld-cpp/main yocto@raspberrypi3-64.lan:
+ssh -p 22 yocto@raspberrypi3-64.lan
+./main
+```
+
+To cleanup the `ros2-helloworld-cpp` project:
+```
+rm -rf ../build/ ../install/ ../log/
+```
