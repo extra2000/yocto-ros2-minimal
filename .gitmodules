@@ -34,3 +34,6 @@
 [submodule "project/yocto/layers/meta-user/recipes-apps/datastruct-cpp/files/datastruct-cpp"]
 	path = project/yocto/layers/meta-user/recipes-apps/datastruct-cpp/files/datastruct-cpp
 	url = https://github.com/extra2000/datastruct-cpp.git
+[submodule "project/yocto/layers/meta-qt5"]
+	path = project/yocto/layers/meta-qt5
+	url = https://github.com/meta-qt5/meta-qt5.git
