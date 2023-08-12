@@ -1,5 +1,22 @@
 # Changelog
 
+## [5.1.0](https://github.com/extra2000/yocto-ros2-minimal/compare/v5.0.1...v5.1.0) (2023-08-12)
+
+
+### Features
+
+* **yocto/ros2:** add required SDK packages for cross-compiling ROS2 C/C++ ([a7f3854](https://github.com/extra2000/yocto-ros2-minimal/commit/a7f385410995871ac1ffce0d25dc58be5ac50ad6))
+
+
+### Documentations
+
+* **yocto/examples:** add examples how to cross-compile generic C/C++ and ROS2 C/C++ projects ([7c97965](https://github.com/extra2000/yocto-ros2-minimal/commit/7c97965a113d1a3014fb00f0892bace67f147480))
+
+
+### Code Refactoring
+
+* **conf:** improve code readability ([b262bb0](https://github.com/extra2000/yocto-ros2-minimal/commit/b262bb0190106d2eaedc8d0f58cc3706cf67b9c9))
+
 ## [5.0.1](https://github.com/extra2000/yocto-ros2-minimal/compare/v5.0.0...v5.0.1) (2023-07-19)
 
 
