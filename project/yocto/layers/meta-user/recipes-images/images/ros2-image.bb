@@ -1,4 +1,4 @@
-require ${COREBASE}/meta/recipes-core/images/core-image-base.bb
+require ${COREBASE}/meta/recipes-graphics/images/core-image-x11.bb
 
 SUMMARY = "ROS2 Image"
 DESCRIPTION = "${SUMMARY}"
@@ -11,6 +11,10 @@ inherit ${ROS_DISTRO_TYPE}_image
 
 SRC_URI:append = "\
     file://LICENSE \
+"
+
+GAZEBO = " \
+    gazebo11 \
 "
 
 ROS_SYSROOT_BUILD_DEPENDENCIES = " \
@@ -130,6 +134,7 @@ IMAGE_INSTALL:append = " \
     ${CAMERA} \
     ${HARDENING} \
     ${SELINUX} \
+    ${GAZEBO} \
     ${DATASTRUCT_APPS} \
     ros-core \
     python3-pip \
