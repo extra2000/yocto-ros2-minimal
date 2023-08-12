@@ -1,5 +1,28 @@
 # Changelog
 
+## [5.2.0](https://github.com/extra2000/yocto-ros2-minimal/compare/v5.1.0...v5.2.0) (2023-08-12)
+
+
+### Features
+
+* **layer:** add official `meta-qt5` layer ([fce613f](https://github.com/extra2000/yocto-ros2-minimal/commit/fce613f0eb429b8ef66814d50a4cb917a97710e9))
+* **meta-user:** add AMD Kria ROS2 Perception example ([be2a5f3](https://github.com/extra2000/yocto-ros2-minimal/commit/be2a5f343baa70e260f0e7f900d90ad3fb307164))
+* **qemu:** add `qemux86-64` ([130ef3e](https://github.com/extra2000/yocto-ros2-minimal/commit/130ef3ef5090292bdd1c58d7c6cf763bf1e85582))
+* **ros2:** add Gazebo 11 Classic and dependencies ([83c9b0d](https://github.com/extra2000/yocto-ros2-minimal/commit/83c9b0d3e0726a25f7bfcaece9454d7eca00a1d1))
+* **ros2:** add Gazebo Fortress and dependencies ([5c0d06f](https://github.com/extra2000/yocto-ros2-minimal/commit/5c0d06f668c80b8a644a4c307e7a75b897db46c0))
+* **rpi4:** add dummy HDMI to allow GPU acceleration for OpenGL rendering ([1fa1876](https://github.com/extra2000/yocto-ros2-minimal/commit/1fa187602e021abe422331fad27e77f998a45c00))
+
+
+### Fixes
+
+* **local.conf:** disable multitasking for bitbake tasks because building Gazebo already used more than 32GB RAM with 16 cores CPUs ([d0148b8](https://github.com/extra2000/yocto-ros2-minimal/commit/d0148b87f86e868d033560ad4a08c1587d274461))
+* **rpi4:** fix WiFi stability issues caused by HDMI interference ([e083cc5](https://github.com/extra2000/yocto-ros2-minimal/commit/e083cc5201eb309e18b6fde7a9ab583fc24ebbd3))
+
+
+### Code Refactoring
+
+* **rpi4:** increase GPU memory to 512MB ([07e23b7](https://github.com/extra2000/yocto-ros2-minimal/commit/07e23b7e2c3769df0c22594241663459465002ef))
+
 ## [5.1.0](https://github.com/extra2000/yocto-ros2-minimal/compare/v5.0.1...v5.1.0) (2023-08-12)
 
 
