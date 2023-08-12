@@ -1,0 +1,20 @@
+--- gts-0.7.6/src/predicates.c    2023-07-29 09:40:13.270610515 +0800
++++ gts-0.7.6/src/predicates.c    2023-07-29 09:40:24.117729216 +0800
+@@ -368,7 +368,7 @@
+   Square(a1, _j, _1); \
+   Two_Two_Sum(_j, _1, _l, _2, x5, x4, x3, x2)
+
+-#ifndef USE_PREDICATES_INIT
++// #ifndef USE_PREDICATES_INIT
+
+ static REAL splitter;     /* = 2^ceiling(p / 2) + 1.  Used to split floats in half. */
+ /* A set of coefficients used to calculate maximum roundoff errors.          */
+@@ -378,7 +378,7 @@
+ static REAL iccerrboundA, iccerrboundB, iccerrboundC;
+ static REAL isperrboundA, isperrboundB, isperrboundC;
+
+-#endif /* USE_PREDICATES_INIT */
++// #endif /* USE_PREDICATES_INIT */
+
+ /*****************************************************************************/
+ /*                                                                           */

@@ -1,0 +1,10 @@
+--- gts-0.7.6/src/Makefile.am    2005-01-19 12:48:22.000000000 +0800
++++ gts-0.7.6/src/Makefile.am    2023-07-29 17:54:13.872315086 +0800
+@@ -69,6 +69,6 @@
+ 	$(COMPILE) $(srcdir)/predicates_init.c -o $(srcdir)/predicates_init
+
+ predicates_init.h: predicates_init
+-	./predicates_init >  $(srcdir)/predicates_init.h
++	predicates_init >  $(srcdir)/predicates_init.h
+
+ CLEANFILES = $(BUILT_SOURCES)

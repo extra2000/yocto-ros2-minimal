@@ -1,0 +1,13 @@
+diff --git a/OgreMain/src/OgrePlatformInformation.cpp b/OgreMain/src/OgrePlatformInformation.cpp
+index aa26d756a1..a90677767f 100644
+--- a/OgreMain/src/OgrePlatformInformation.cpp
++++ b/OgreMain/src/OgrePlatformInformation.cpp
+@@ -43,7 +43,7 @@ THE SOFTWARE.
+     #if OGRE_PLATFORM == OGRE_PLATFORM_ANDROID
+         #include <cpu-features.h>
+     #elif OGRE_CPU == OGRE_CPU_ARM 
+-        #include <sys/sysctl.h>
++        #include <linux/sysctl.h>
+         #if __MACH__
+             #include <mach/machine.h>
+             #ifndef CPU_SUBTYPE_ARM64_V8

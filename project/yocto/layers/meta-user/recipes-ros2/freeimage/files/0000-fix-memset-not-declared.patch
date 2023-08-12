@@ -1,0 +1,10 @@
+--- FreeImage/Source/OpenEXR/IlmImf/ImfAutoArray.h    2023-07-30 13:18:19.410360522 +0800
++++ FreeImage/Source/OpenEXR/IlmImf/ImfAutoArray.h    2023-07-30 13:18:38.363566957 +0800
+@@ -44,6 +44,7 @@
+ //
+ //-----------------------------------------------------------------------------
+
++#include <cstring>
+ #include "OpenEXRConfig.h"
+
+ namespace Imf {
