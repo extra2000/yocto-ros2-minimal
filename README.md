@@ -34,6 +34,7 @@ git clone --recursive https://github.com/extra2000/yocto-ros2-minimal.git
 * Pine64:
     * [Rock64](docs/yocto/specifics/rock64.md)
 * QEMU:
+    * [x86_64](docs/yocto/specifics/qemux86-64.md)
     * [ARM 32-bit](docs/yocto/specifics/qemuarm.md)
     * [ARM 64-bit](docs/yocto/specifics/qemuarm64.md)
 * All Yocto targets: [Yocto Building for All Targets](docs/yocto/all-targets.md)
